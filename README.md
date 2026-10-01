@@ -1,4 +1,4 @@
-# THAI UR Website v2.2 — Bilingual Demo
+# THAI UR Website v2.1 — Bilingual Demo
 
 เวอร์ชันนี้เพิ่มระบบสองภาษา TH / EN โดยใช้ HTML ชุดเดียวและสลับข้อความด้วย JavaScript
 
