@@ -7,7 +7,8 @@ const centers = [
     name: { th: "ศูนย์ไตเทียม มรุกขะ", en: "Marukha Hemodialysis Center" },
     address: { th: "191 หมู่ที่ 3 ตำบลธาตุพนม อำเภอธาตุพนม จังหวัดนครพนม 48110", en: "191 Moo 3, That Phanom Subdistrict, That Phanom District, Nakhon Phanom 48110, Thailand" },
     image: "assets/nakorn_1.jpg",
-    mapQuery: "ศูนย์ไตเทียมมรุกขะ WMJX+5VR ตำบล ธาตุพนม อำเภอ ธาตุพนม นครพนม 48110"
+    mapQuery: "ศูนย์ไตเทียมมรุกขะ WMJX+5VR ตำบล ธาตุพนม อำเภอ ธาตุพนม นครพนม 48110",
+    facebook: "https://www.facebook.com/p/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%A1%E0%B8%A3%E0%B8%B8%E0%B8%81%E0%B8%82%E0%B8%B0-61559857574482/"
   },
   {
     province: { th: "นครพนม", en: "Nakhon Phanom" },
@@ -15,7 +16,8 @@ const centers = [
     name: { th: "คลินิกหมอจุฬารัตน์", en: "Dr. Chularat Clinic" },
     address: { th: "40, 42, 44, 46, 48 ถนนสมุทรบริหาร ตำบลในเมือง อำเภอเมืองนครพนม จังหวัดนครพนม", en: "40, 42, 44, 46, 48 Samut Bori Han Road, Nai Mueang Subdistrict, Mueang Nakhon Phanom District, Nakhon Phanom, Thailand" },
     image: "assets/nakorn_2.jpg",
-    mapQuery: "คลินิกหมอจุฬารัตน์ 5 ซอย สมุทรบรรหาร ในเมือง อำเภอเมืองนครพนม นครพนม 48000"
+    mapQuery: "คลินิกหมอจุฬารัตน์ 5 ซอย สมุทรบรรหาร ในเมือง อำเภอเมืองนครพนม นครพนม 48000",
+    facebook: ""
   },
   {
     province: { th: "แพร่", en: "Phrae" },
@@ -23,7 +25,8 @@ const centers = [
     name: { th: "คลินิกแพทย์วุฒิกร", en: "Dr. Wuttikorn Clinic" },
     address: { th: "144/17-18 หมู่ที่ 7 ตำบลป่าแมต อำเภอเมืองแพร่ จังหวัดแพร่", en: "144/17-18 Moo 7, Pa Maet Subdistrict, Mueang Phrae District, Phrae, Thailand" },
     image: "assets/phare_1.jpg",
-    mapQuery: "คลินิกแพทย์วุฒิกร 17-18, 144 ถนน ยันตรกิจโกศล ตำบล ป่าแมต อำเภอเมืองแพร่ แพร่ 54000"
+    mapQuery: "คลินิกแพทย์วุฒิกร 17-18, 144 ถนน ยันตรกิจโกศล ตำบล ป่าแมต อำเภอเมืองแพร่ แพร่ 54000",
+    facebook: "https://www.facebook.com/Wuttikornclinic?locale=th_TH"
   },
   {
     province: { th: "แพร่", en: "Phrae" },
@@ -31,7 +34,8 @@ const centers = [
     name: { th: "ศูนย์ไตเทียม แพร่ วีอาร์ สูงเม่น", en: "Phrae VR Hemodialysis Center, Sung Men" },
     address: { th: "85/4 หมู่ที่ 9 ตำบลเวียงทอง อำเภอสูงเม่น จังหวัดแพร่", en: "85/4 Moo 9, Wiang Thong Subdistrict, Sung Men District, Phrae, Thailand" },
     image: "assets/phare_2.jpg",
-    mapQuery: "ศูนย์ไตเทียม แพร่ วีอาร์ 34GC+R5F ตำบล พระหลวง อำเภอสูงเม่น แพร่ 54130"
+    mapQuery: "ศูนย์ไตเทียม แพร่ วีอาร์ 34GC+R5F ตำบล พระหลวง อำเภอสูงเม่น แพร่ 54130",
+    facebook: "https://www.facebook.com/p/%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%A7%E0%B8%8A%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1-%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B9%88-%E0%B8%A7%E0%B8%B5-%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C-61582229617573/"
   },
   {
     province: { th: "เชียงใหม่", en: "Chiang Mai" },
@@ -39,7 +43,8 @@ const centers = [
     name: { th: "คลินิกเวชกรรม ทีอาร์ดี", en: "TRD Medical Clinic" },
     address: { th: "154 หมู่ที่ 4 ตำบลหนองป่าครั่ง อำเภอเมือง จังหวัดเชียงใหม่", en: "154 Moo 4, Nong Pa Khrang Subdistrict, Mueang District, Chiang Mai, Thailand" },
     image: "assets/chiangMai_1.jpg",
-    mapQuery: "TRD Hemodialysis Center (คลินิกเวชกรรม ทีอาร์ดี) หมู่ ที่ 4 ตำบลหนองป่าครั่ง อำเภอเมืองเชียงใหม่ เชียงใหม่ 50000"
+    mapQuery: "TRD Hemodialysis Center (คลินิกเวชกรรม ทีอาร์ดี) หมู่ ที่ 4 ตำบลหนองป่าครั่ง อำเภอเมืองเชียงใหม่ เชียงใหม่ 50000",
+    facebook: "https://www.facebook.com/TRDHemodialysiscenter/?locale=th_TH"
   },
   {
     province: { th: "เชียงใหม่", en: "Chiang Mai" },
@@ -47,7 +52,8 @@ const centers = [
     name: { th: "ศูนย์ไตเทียม เคทีอาร์ดี", en: "KTRD Hemodialysis Center" },
     address: { th: "501 หมู่ที่ 16 ตำบลสันทราย อำเภอฝาง จังหวัดเชียงใหม่", en: "501 Moo 16, San Sai Subdistrict, Fang District, Chiang Mai, Thailand" },
     image: "assets/chiangMai_2.jpg",
-    mapQuery: "คลินิกเวชกรรม เคทีอาร์ดี 501 ตำบล สันทราย อำเภอ ฝาง เชียงใหม่ 50110"
+    mapQuery: "คลินิกเวชกรรม เคทีอาร์ดี 501 ตำบล สันทราย อำเภอ ฝาง เชียงใหม่ 50110",
+    facebook: "https://www.facebook.com/p/%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%95%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1-%E0%B9%80%E0%B8%84%E0%B8%97%E0%B8%B5%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%B5-KTRD-Hemodialysis-Center-61590389668261/"
   },
   {
     province: { th: "หลวงพระบาง (ลาว)", en: "Luang Prabang (Laos)" },
@@ -55,7 +61,8 @@ const centers = [
     name: { th: "คลินิกเวชกรรม ลาว ยูอาร์ หลวงพระบาง ประเทศลาว", en: "Lao UR Medical Clinic, Luang Prabang, Laos" },
     address: { th: "11 หน่วย 1 หมู่บ้านสังสะโลก อำเภอหลวงพระบาง จังหวัดหลวงพระบาง", en: "Unit 1, Ban Sangsaloak, Luang Prabang District, Luang Prabang, Laos" },
     image: "assets/Lao_1.jpg",
-    mapQuery: "คลินิกเวชกรรม ลาว ยูอาร์ 11 หน่วย 1 หมู่บ้านสังสะโลก อำเภอหลวงพระบาง จังหวัดหลวงพระบาง"
+    mapQuery: "คลินิกเวชกรรม ลาว ยูอาร์ 11 หน่วย 1 หมู่บ้านสังสะโลก อำเภอหลวงพระบาง จังหวัดหลวงพระบาง",
+    facebook: ""
   }
 ];
 
@@ -222,7 +229,11 @@ function renderCenters() {
         <div class="cert"><span>✓</span> ${pack.centers.certification}</div>
 
         <div class="card-actions">
-          <a href="#contact" class="card-btn primary">${pack.centers.detail}</a>
+          ${center.facebook ? `
+          <a href="${center.facebook}" class="card-btn primary" target="_blank" rel="noopener noreferrer">${pack.centers.detail}</a> 
+          ` : ` 
+          <a href="#" class="card-btn primary" onclick="return false;" aria-disabled="true"> ${pack.centers.detail}</a>
+          `}
           <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(center.mapQuery)}" class="card-btn secondary" target="_blank" rel="noopener noreferrer">${pack.centers.map}</a>
         </div>
       </div>
